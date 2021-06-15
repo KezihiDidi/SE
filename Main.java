@@ -60,7 +60,7 @@ import java.util.Scanner;
 
 */
     public static void Best_fit(int block_t[], int process_t[]){
-        
+
         int[] block_of_allocation = new int[process_t.length];
         for(int i=0;i<process_t.length;i++){
             block_of_allocation[i]= -1;
@@ -88,7 +88,7 @@ import java.util.Scanner;
     }
 
     public static void Worst_fit(int block_t[], int process_t[]){
-        
+
         int[] block_of_allocation = new int[process_t.length];
         for(int i=0;i<process_t.length;i++){
             block_of_allocation[i]= -1;
